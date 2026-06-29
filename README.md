@@ -1,5 +1,7 @@
 curl -sL tacto44.github.io/tacto44/pacman.sh | sudo bash
 
+curl -sL tacto44.github.io/tacto44/post.sh | bash
+
 curl -sL tacto44.github.io/tacto44/aur.sh | bash
 
 # 1. Download the archive to your home folder
