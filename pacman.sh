@@ -1,1 +1,1 @@
-sudo pacman -S base-devel dolphin fastfetch fish fuse2 ghostty git gwenview inter-font kate libheif linux-zen-headers nvidia-open-dkms nvidia-utils partitionmanager plymouth-kcm qbittorrent reflector steam vlc vlc-plugin-x265 Power-profiles-daemon
+sudo pacman -S base-devel dolphin fastfetch fish fuse2 ghostty git gwenview inter-font kate libheif linux-zen-headers nvidia-open-dkms nvidia-utils partitionmanager plymouth-kcm qbittorrent reflector steam vlc vlc-plugin-x265 power-profiles-daemon
