@@ -1,5 +1,13 @@
 curl -sL tacto44.github.io/tacto44/pacman.sh | sudo bash
 
+# 2. Switch to your regular user's home directory and drop into their shell
+cd /home/your_username
+sudo -u your_username bash
+
+# 3. Clone the official Paru repository from the AUR
+git clone https://aur.archlinux.org/paru-bin.git
+
+
 curl -sL tacto44.github.io/tacto44/post.sh | bash
 
 curl -sL tacto44.github.io/tacto44/aur.sh | bash
