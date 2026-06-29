@@ -2,7 +2,11 @@ curl -sL tacto44.github.io/tacto44/pacman.sh | sudo bash
 
 curl -sL tacto44.github.io/tacto44/aur.sh | bash
 
+# 1. Download the archive to your home folder
+wget https://tacto44.github.io/tacto44/kdebackup.tar.gz
 
+# 2. Extract it safely right into your home directory 
+tar -xzvf kdebackup.tar.gz -C ~/
 
 sudo sed -i '/^OPTIONS=/s/\bdebug\b/!debug/' /etc/makepkg.conf
 
