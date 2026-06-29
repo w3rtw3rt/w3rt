@@ -1,3 +1,5 @@
+curl -sL tacto44.github.io/tacto44/pacman.sh | sudo bash
+
 sudo sed -i '/^OPTIONS=/s/\bdebug\b/!debug/' /etc/makepkg.conf
 
 sudo nano /etc/systemd/system.conf
